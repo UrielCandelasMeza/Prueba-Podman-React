@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       <div className="w-full h-screen flex flex-col items-center justify-center gap-5">
-        <h1 className="text-2xl font-semibold">Hola Mundo</h1>
-        <p>Esta es una prueba de como funciona mi propio servidor con una pagina web</p>
+        <h1 className="text-2xl font-semibold text-center">Hola Mundo</h1>
+        <p className="text-center">Esta es una prueba de como funciona mi propio servidor con una pagina web</p>
 
-        <section className="grid grid-cols-2 gap-5">
+        <section className="grid md:grid-cols-2 sm:grid-cols-1 gap-5">
             <form onSubmit={handleSubmit} className="grid border rounded-2xl px-3 py-5 gap-4">
               <label>
                 <p>Nombre:</p>
